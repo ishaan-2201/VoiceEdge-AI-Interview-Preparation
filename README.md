@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VoiceEdge - AI-Powered Interview Practice Platform
 
-## Getting Started
+VoiceEdge is an innovative interview practice platform that leverages artificial intelligence to provide realistic interview experiences. Using advanced voice AI technology and natural language processing, VoiceEdge helps users prepare for technical interviews through interactive, customized interview sessions.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🔐 Authentication & User Management
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Secure user authentication using Firebase
+- Personalized user dashboard
+- Track interview history and upcoming sessions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🎯 Customized Interview Creation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Create personalized interview sessions based on:
+  - Interview type
+  - Experience level
+  - Role
+  - Number of questions
+  - Tech stack preferences
+- Natural conversation with AI to set up interview parameters
 
-## Learn More
+### 🤖 AI-Powered Interview Experience
 
-To learn more about Next.js, take a look at the following resources:
+- Real-time voice interaction using Vapi Voice AI
+- Human-like conversation flow
+- Adaptive interview pacing
+- Natural pauses and thinking time
+- Hints and guidance when needed
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📊 Comprehensive Feedback System
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Detailed performance analysis including:
+  - Technical knowledge assessment
+  - Communication skills evaluation
+  - Problem-solving approach analysis
+  - Confidence and clarity metrics
+  - Category-wise scoring
+  - Areas of improvement
+  - Final assessment score
 
-## Deploy on Vercel
+### 🔄 Interview Workflow
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. User signs in to their dashboard
+2. Creates a customized interview through AI conversation
+3. Questions are generated using Gemini AI
+4. Takes the interview through voice interaction
+5. Receives immediate, detailed feedback
+6. Tracks progress over time
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Technology Stack
+
+- **Frontend**: React.js
+- **Backend**: Node.js
+- **Authentication & Database**: Firebase/Firestore
+- **Voice AI**: Vapi Voice AI
+- **AI Question Generation**: Google Gemini
+- **AI Feedback Analysis**: Google Gemini
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js
+- Firebase account
+- Vapi Voice AI account
+- Google Gemini API access
+
+## 📝 Usage
+
+1. **Sign In**: Create an account or sign in using Firebase authentication
+2. **Dashboard**: View past interviews and create new ones
+3. **Create Interview**:
+   - Click "Start Interview"
+   - Have a conversation with AI to customize your interview
+   - Specify your requirements (type, level, role, etc.)
+4. **Take Interview**:
+   - Engage in a natural conversation with the AI interviewer
+   - Answer questions and solve problems
+   - Receive real-time interaction and guidance
+5. **Review Feedback**:
+   - Get immediate, detailed feedback
+   - Review scores and areas of improvement
+   - Track progress over time
+
+## 🔒 Security
+
+- Secure authentication through Firebase
+- Protected API endpoints
+- Secure storage of user data and interview records
+- Encrypted communication
+
+## 🙏 Acknowledgments
+
+- Vapi Voice AI for providing the voice interaction capabilities
+- Google Gemini for AI-powered question generation and feedback analysis
+- Firebase for authentication and database services
